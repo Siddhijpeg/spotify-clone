@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Web Player: Music for everyone</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="all.min.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="http://127.0.0.1:5500/assets/logo.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="main">
+    <div class="sidebar">
+
+        <div class="nav">
+            <div class="nav-option" style="opacity:1;">
+                <i class="fa-solid fa-house"></i>
+                <a href="#">Home</a>
+            </div>
+
+            <div class="nav-option">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <a href="#">Search</a>
+            </div>
+        </div>
+
+        <div class="library">
+            <div class="options">
+                <div class="lib-option nav-option">
+                    <img src="library_icon.png">
+                    <a href="#">Your Library</a>
+                </div>
+                <div class="icons">
+                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+
+            <div class="lib-box">
+                <div class="box">
+                    <p class="box-p1">Create your first playlist</p>
+                    <p class="box-p2">It's easy, we'll help you</p>
+                    <button class="badge">Create playlist</button>
+                </div>
+
+                <div class="box-next">
+                    <p class="box-p1">Let's find some podcasts to follow</p>
+                    <p class="box-p2">We'll keep you updated on new episodes</p>
+                    <button class="badge-2">Browse Podcasts</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="main-content">
+
+    <!-- TOP BAR -->
+    <div class="top-bar">
+        <div class="arrows">
+            <i class="fa-solid fa-chevron-left"></i>
+            <i class="fa-solid fa-chevron-right"></i>
+        </div>
+
+        <div class="top-buttons">
+            <button class="premium-btn">Explore Premium</button>
+            <button class="install-btn">Install App</button>
+            <i class="fa-regular fa-user"></i>
+        </div>
+    </div>
+
+    <!-- RECENTLY PLAYED -->
+    <h2 class="section-title">Recently played</h2>
+    <div class="cards">
+        <div class="card">
+            <div class="card-img purple"><img src="C:\Users\siddh\OneDrive\Desktop\spotify clone\assets\card5img.jpeg" alt="Global 50"></div>
+            <h4>Liked Songs</h4>
+            <p>Playlist • 120 songs</p>
+        </div>
+
+        <div class="card">
+            <div class="card-img red"><img src="C:\Users\siddh\OneDrive\Desktop\spotify clone\assets\card6img.jpeg" alt="india 50"></div>
+            <h4>Daily Mix 1</h4>
+            <p>Arijit Singh, Atif Aslam</p>
+        </div>
+
+        <div class="card">
+            <div class="card-img blue"><img src="C:\Users\siddh\OneDrive\Desktop\spotify clone\assets\card1img.jpeg" alt="Global Top 50"></div>
+            <h4>Top Hits India</h4>
+            <p>Trending tracks</p>
+        </div>
+    </div>
+
+    <!-- TRENDING -->
+    <h2 class="section-title">Trending now near you</h2>
+    <div class="cards">
+        <div class="card">
+            <div class="card-img black"><img src="C:\Users\siddh\OneDrive\Desktop\spotify clone\assets\card3img.jpeg" alt="Global Top 50"></div>
+            <h4>Bollywood Hits</h4>
+            <p>Latest Bollywood tracks</p>
+        </div>
+
+        <div class="card">
+            <div class="card-img black"><img src="C:\Users\siddh\OneDrive\Desktop\spotify clone\assets\card4img.jpeg" alt="Global Top 50"></div>
+            <h4> Top 50</h4>
+            <p>Songs</p>
+        </div>
+
+        <div class="card">
+            <div class="card-img black">
+    <img src="C:\Users\siddh\OneDrive\Desktop\spotify clone\assets\card2img.jpeg" alt="Global Top 50">
+</div>
+
+            <h4>Global Top 50</h4>
+            <p>Worldwide hits</p>
+        </div>
+    </div>
+
+    <!-- FEATURED CHARTS -->
+    <h2 class="section-title">Featured Charts</h2>
+    <div class="cards">
+        <div class="card">
+            <div class="card-img purple"><img src="C:\Users\siddh\OneDrive\Desktop\spotify clone\assets\card5img.jpeg" alt="Global 50"></div>
+            <h4>Top global</h4>
+            <p>Your daily updates of the most played...</p>
+        </div>
+
+        <div class="card">
+            <div class="card-img red"><img src="C:\Users\siddh\OneDrive\Desktop\spotify clone\assets\card6img.jpeg" alt="india 50"></div>
+            <h4>Top songs</h4>
+            <p>Top songs India</p>
+        </div>
+
+        <div class="card">
+            <div class="card-img blue"><img src="C:\Users\siddh\OneDrive\Desktop\spotify clone\assets\card1img.jpeg" alt="Global Top 50"></div>
+            <h4>Top 50 Global</h4>
+            <p>Global hits</p>
+        </div>
+    </div>
+
+    <!-- EXTRA SPACE TO FORCE SCROLL -->
+    <div style="height: 150px;"></div>
+
+</div>
+
+
+
+
+</div>
+
+<div class="music-player">
+
+    <!-- Left -->
+    <div class="player-left">
+        <img src="C:\Users\siddh\OneDrive\Desktop\spotify clone\assets\card2img.jpeg" alt="album" height="48">
+        <div>
+            <p class="music-nme">Mahiye Jinna Sona</p>
+            <p class="artist">Darshan Raval</p>
+        </div>
+    </div>
+
+    <!-- Center -->
+    <div class="player-center">
+        <div class="controls">
+            <i class="fa-solid fa-shuffle"></i>
+            <i class="fa-solid fa-backward"></i>
+            <i class="fa-solid fa-play"></i>
+            <i class="fa-solid fa-forward"></i>
+            <i class="fa-solid fa-repeat"></i>
+        </div>
+
+        <div class="progress">
+            <span>0:00</span>
+            <input type="range">
+            <span>3:33</span>
+        </div>
+    </div>
+
+    <!-- Right -->
+    <div class="player-right">
+        <i class="fa-solid fa-list"></i>
+        <i class="fa-solid fa-volume-high"></i>
+        <input type="range">
+    </div>
+
+</div>
+
+
+</body>
+</html>
